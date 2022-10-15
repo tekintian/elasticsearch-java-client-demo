@@ -1,0 +1,7 @@
+spring:
+  application: 
+    name: ynws-elasticsearch
+  data:
+    elasticsearch: # 这个配置在ES7中已经丢弃
+      cluster-name: "docker-cluster"
+      cluster-nodes: 192.168.2.8:9300
